@@ -1,3 +1,8 @@
+#Mono Clone
+
+![mono](https://user-images.githubusercontent.com/97337740/209867074-6cd68d38-3582-4664-ab95-d2f4dec2a45e.jpeg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
