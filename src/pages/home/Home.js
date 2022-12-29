@@ -64,7 +64,61 @@ function Home() {
 
         <div className="middle-banner-hero-cards">
           <div className="middle-banner-hero">
-
+            <div className="middle-banner-hero-content">
+              <img
+                src="https://monoassets.com/f/118499/x/26e5185f10/vector-6.svg"
+                alt="connect-logo"
+              />
+              <h1>Connect</h1>
+              <p>
+                Securely access financial accounts for <br /> statements,
+                transactions, and identity
+              </p>
+              <Link>
+                Start with Connect
+                <AiOutlineArrowRight />
+              </Link>
+            </div>
+          </div>
+          <div className="middle-banner-card">
+            <div className="card-one">
+              <img
+                src="https://monoassets.com/f/118499/x/4f8eb638fd/vector-1get-started-icon.svg"
+                alt=""
+              />
+              <h1>DirectPay</h1>
+              <p>
+                Collect bank payments in your web or mobile app. No cards. No
+                chargebacks
+              </p>
+              <Link>
+                Start with DirectPay
+                <AiOutlineArrowRight />
+              </Link>
+              <div className="in-partner">
+                <p>In partnership with</p>
+                <img
+                  src="https://monoassets.com/f/118499/x/8147ab4312/group-45flw.svg"
+                  alt="flutta"
+                />
+              </div>
+            </div>
+            <div className="card-two">
+              <img
+                src="            https://monoassets.com/f/118499/x/e9eb8d1c26/union.svg
+                  "
+                alt="flutta"
+              />
+              <h1>Percent</h1>
+              <p>
+                Money operations and reconciliation for all your corporate
+                accounts, in one dashboard
+              </p>
+              <Link>
+                Request access
+                <AiOutlineArrowRight />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
