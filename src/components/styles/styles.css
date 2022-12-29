@@ -198,6 +198,289 @@ body {
   background-color: #202020;
 }
 
+.started {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-image: url("https://monoassets.com/f/118499/2161x1907/60ffc90276/getting-started-bg.jpg");
+  padding: 18px;
+}
+.started .started-contain {
+  width: 80%;
+  margin: 0 auto;
+}
+.started .startedCards {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 12px 10px;
+}
+
+.featuredCard {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px 10px;
+}
+
+.featuredRight {
+  width: 380px;
+  margin-top: 45px;
+  margin-right: 36px;
+}
+
+.cardsTxt {
+  font-weight: 900;
+  font-size: 38px;
+  color: black;
+}
+
+.cardsLink {
+  display: flex;
+  align-items: center;
+  color: blue;
+  font-weight: 600;
+  font-size: medium;
+}
+.cardsLink svg {
+  width: 24px;
+  height: auto;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 18px 10px;
+}
+
+.cardsContainer {
+  background-color: white;
+  width: 33.33%;
+  height: 240px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  padding: 18px 26px;
+}
+.cardsContainer .cardsTxt {
+  font-weight: 900;
+  font-size: 38px;
+  color: black;
+}
+.cardsContainer .cardsLink {
+  display: flex;
+  align-items: center;
+  color: blue;
+  font-weight: 600;
+  font-size: medium;
+}
+.cardsContainer .cardsLink svg {
+  width: 24px;
+  height: auto;
+}
+.cardsContainer img {
+  width: 45px;
+  height: auto;
+}
+
+.row4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 130px;
+  margin-bottom: 100px;
+}
+.row4 h2 {
+  color: #000000;
+  font-size: 4rem;
+  line-height: 15px;
+}
+.row4 .Biz_building {
+  font-size: 1.85rem;
+  line-height: 1px;
+  color: #2d2a2a;
+  padding-top: 5px;
+}
+
+.loan-offers {
+  margin: 50px auto;
+  padding: 50px 50px 0 50px;
+  width: 75%;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+.loan-offers .loan-offer-contents {
+  display: flex;
+  gap: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #9a9a9a;
+  padding-bottom: 70px;
+}
+.loan-offers .loan-offer-content1 {
+  display: flex;
+  justify-content: center;
+}
+.loan-offers .loan-offer-content1 .loan-offer-img {
+  width: 40%;
+}
+.loan-offers .loan-offer-content1 .loan-offer-img .diamond {
+  background-color: #ffffff;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -570px;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+.loan-offers .loan-offer-content1 .loan-offer-img .diamond img {
+  margin-left: 33px;
+  width: 50px;
+}
+.loan-offers .loan-offer-content1 .loan-offer-text {
+  width: 60%;
+}
+.loan-offers .loan-offer-content1 .loan-offer-text * {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.loan-offers .loan-offer-content1 .loan-offer-text h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.loan-offers .loan-offer-content1 .loan-offer-text .loan-offer-text1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #707070;
+  font-weight: 600;
+}
+.loan-offers .loan-offer-content1 .loan-offer-text b {
+  font-weight: 800;
+  color: #0055ba;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.loan-offers .btn-lending {
+  background-color: #000000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+.market-leaders {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 130px;
+  margin-bottom: 100px;
+}
+.market-leaders h2 {
+  color: #000000;
+  font-size: 4rem;
+  line-height: 15px;
+}
+.market-leaders .Biz_building {
+  font-size: 1.85rem;
+  line-height: 1px;
+  color: #2d2a2a;
+  padding-top: 5px;
+}
+
+.quotes {
+  width: 80%;
+  margin: 50px auto 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.quotes .quote1 {
+  width: 50%;
+  border-radius: 30px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.quotes .quote1 .leaders-quote {
+  height: 550px;
+}
+.quotes .quote1 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 800;
+  margin: auto;
+}
+.quotes .quote1 .article {
+  display: flex;
+  gap: 30px;
+  margin-top: 80px;
+}
+.quotes .quote1 .article img {
+  width: 50px;
+}
+.quotes .quote1 .article p {
+  font-size: 12px;
+  line-height: 17px;
+}
+.quotes .quote1 .article .article-logo {
+  position: absolute;
+  margin-left: -15px;
+  margin-top: 30px;
+  width: 20px;
+}
+.quotes .quote1 .article .article-sec2 {
+  display: flex;
+  align-items: center;
+}
+.quotes .quote1 .article .article-sec2 p {
+  font-size: 16px;
+}
+.quotes .quote1 .article .article-sec2 .role {
+  color: #9a9a9a;
+  padding-top: 5px;
+}
+
+.left-right-arrow {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.left-right-arrow .arrow1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.left-right-arrow .arrow1 p {
+  font-size: 25px;
+}
+.left-right-arrow .arrow1 .dotted-indicator2 {
+  color: #e5e5e5;
+}
+.left-right-arrow .arrow2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.left-right-arrow .arrow2 .arrow-signal1 {
+  color: #9a9a9a;
+  font-size: 35px;
+}
+.left-right-arrow .arrow2 .arrow-signal2 {
+  color: #0055ba;
+  font-size: 35px;
+}
+
 .footer_section {
   background-color: #000000;
 }

@@ -1,18 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function FeaturedCard({ data }) {
-  const { img, txt, link, styles, leftCol, icon } = data;
+  const { img, txt, link, icon } = data;
   return (
-    <div style={styles}>
-      <div style={leftCol}>
+    <div className="featuredCard">
+      <div className="leftCol">
         <img src={icon} alt="card-icon" style={{ width: 45, height: "auto" }} />
-        <span style={txt.styles}>{txt.text}</span>
-        <Link href={link.ref} style={link.styles}>
+        <p className="cardsTxt">{txt.text}</p>
+        <a href={link.ref} className="cardsLink">
           {link.txt} <link.icon />
-        </Link>
+        </a>
       </div>
-      <img src={img.src} alt="featured-code-image" style={img.styles} />
+      <img src={img.src} alt="featured-code-image" className="featuredRight" />
     </div>
   );
 }

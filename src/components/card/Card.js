@@ -1,12 +1,12 @@
 import React from "react";
 
 function Card({ data }) {
-  const { img, txt, link, styles } = data;
+  const { img, txt, link } = data;
   return (
-    <div style={styles}>
-      <img src={img} alt="card-icon" style={{width: 45, height: 'auto'}} />
-      <span style={txt.styles}>{txt.text}</span>
-      <a href={link.ref} style={link.styles}>
+    <div className="cardsContainer">
+      <img src={img} alt="card-icon" />
+      <span className="cardsTxt">{txt.text}</span>
+      <a href={link.ref} className="cardsLink">
         {link.txt} <link.icon />
       </a>
     </div>
