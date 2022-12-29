@@ -92,8 +92,11 @@ body {
   border: none;
 }
 
-.trusted-by {
+.truested-by-contain {
   width: 80%;
+  margin: 50px auto;
+}
+.truested-by-contain .trusted-by {
   margin: 50px auto;
   flex-wrap: wrap;
   display: flex;
@@ -197,6 +200,10 @@ body {
 
 .footer_section {
   background-color: #000000;
+}
+.footer_section * {
+  margin: 0;
+  padding: 0;
 }
 .footer_section .footer_section1 {
   display: flex;
@@ -317,7 +324,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 990px) {
   body {
     display: none;
   }
