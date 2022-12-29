@@ -34,7 +34,7 @@ function NavBar() {
             </Link>
           </li>
         </ul>
-        <a href="#">Sign in</a>
+        <Link className="sign-in">Sign in</Link>
       </div>
     </div>
   );
