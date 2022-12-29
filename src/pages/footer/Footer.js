@@ -25,8 +25,6 @@ function Footer() {
         </div>
       </section>
 
-      {/* <hr className="cross_line" /> */}
-
       <section className="footer_section2">
         <div>
           <h6>Products</h6>

@@ -37,27 +37,32 @@ function Home() {
         </div>
       </div>
 
-      <div className="trusted-by">
-        <img
-          src="https://monoassets.com/f/118499/x/bcea3ba6e5/carbon-logo.svg"
-          alt="carbon"
-        />
-        <img
-          src="https://monoassets.com/f/118499/x/f1f896ba4f/image-13autochek.svg"
-          alt="auto-check"
-        />
-        <img
-          src="https://monoassets.com/f/118499/x/8147ab4312/group-45flw.svg"
-          alt="flutta"
-        />
-        <img
-          src="https://monoassets.com/f/118499/x/b3ceb27492/image-10evolve_credit.svg"
-          alt="evolve"
-        />
+      <div className="truested-by-contain ">
+        <p>Trusted by</p>
+        <div className="trusted-by">
+          <img
+            src="https://monoassets.com/f/118499/x/bcea3ba6e5/carbon-logo.svg"
+            alt="carbon"
+          />
+          <img
+            src="https://monoassets.com/f/118499/x/f1f896ba4f/image-13autochek.svg"
+            alt="auto-check"
+          />
+          <img
+            src="https://monoassets.com/f/118499/x/8147ab4312/group-45flw.svg"
+            alt="flutta"
+          />
+          <img
+            src="https://monoassets.com/f/118499/x/b3ceb27492/image-10evolve_credit.svg"
+            alt="evolve"
+          />
+        </div>
       </div>
 
       <div className="middle-banner">
-        <h1>Build for the future of digital finance.</h1>
+        <h1>
+          Build for the future <br /> of digital financem{" "}
+        </h1>
         <p>
           Bring tomorrow's solutions to life, with our customer-focused
           solutions, today.

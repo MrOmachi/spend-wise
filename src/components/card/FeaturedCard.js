@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function FeaturedCard({ data }) {
   const { img, txt, link, styles, leftCol, icon } = data;
@@ -7,9 +8,9 @@ function FeaturedCard({ data }) {
       <div style={leftCol}>
         <img src={icon} alt="card-icon" style={{ width: 45, height: "auto" }} />
         <span style={txt.styles}>{txt.text}</span>
-        <a href={link.ref} style={link.styles}>
+        <Link href={link.ref} style={link.styles}>
           {link.txt} <link.icon />
-        </a>
+        </Link>
       </div>
       <img src={img.src} alt="featured-code-image" style={img.styles} />
     </div>
