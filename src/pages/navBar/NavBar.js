@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { AiOutlineDown } from "react-icons/ai";
 
 function NavBar() {
@@ -12,24 +14,24 @@ function NavBar() {
         />
         <ul className="nav-desktop-lists">
           <li>
-            <a href="#">
+            <Link>
               Why Mono <AiOutlineDown />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link>
               Product <AiOutlineDown />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link>
               Learn <AiOutlineDown />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link>
               Developers <AiOutlineDown />
-            </a>
+            </Link>
           </li>
         </ul>
         <a href="#">Sign in</a>
