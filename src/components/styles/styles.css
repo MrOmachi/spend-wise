@@ -1,0 +1,77 @@
+.nav-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 10px auto;
+}
+.nav-desktop .nav-desktop-lists {
+  display: flex;
+  list-style: none;
+}
+.nav-desktop .nav-desktop-lists li {
+  margin: 0 20px;
+  display: inline-flex;
+}
+.nav-desktop .nav-desktop-lists li a {
+  text-decoration: none;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.jumbo-tron {
+  width: 80%;
+  margin: 80px auto;
+}
+.jumbo-tron .jumbo-new-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background-color: #f5f5f5;
+  padding: 9px 10px;
+}
+.jumbo-tron .jumbo-new-link .span-new {
+  font-size: 11;
+  background-color: #0055ba;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 10px;
+}
+.jumbo-tron .jumbo-new-link .span-mono {
+  color: black;
+  font-size: 13;
+  margin: 0 0 0 10px;
+}
+.jumbo-tron .jumbo-head {
+  font-size: 70px;
+}
+.jumbo-tron .jumpa-paragraph {
+  font-size: 25px;
+}
+.jumbo-tron .jumbo-buttons {
+  display: flex;
+}
+.jumbo-tron .jumbo-buttons .button-one {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #0055ba;
+  color: white;
+  margin: 8px 15px 8px 0;
+  border: none;
+  font-size: 15px;
+  gap: 5px;
+  border-radius: 10px;
+}
+.jumbo-tron .jumbo-buttons .button-two {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+  background-color: #f5f5f5;
+  margin: 8px 0;
+  padding: 15px 20px;
+  border: none;
+}/*# sourceMappingURL=styles.css.map */
