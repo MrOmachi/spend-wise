@@ -5,6 +5,14 @@
   width: 80%;
   margin: 10px auto;
 }
+.nav-desktop .sign-in {
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #0055ba;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 10px;
+}
 .nav-desktop .nav-desktop-lists {
   display: flex;
   list-style: none;
@@ -16,12 +24,14 @@
 .nav-desktop .nav-desktop-lists li a {
   text-decoration: none;
   display: flex;
+  color: black;
   gap: 8px;
   align-items: center;
 }
 
 .jumbo-tron {
   width: 80%;
+  display: flex;
   margin: 80px auto;
 }
 .jumbo-tron .jumbo-new-link {
@@ -30,6 +40,7 @@
   gap: 10px;
   text-decoration: none;
   background-color: #f5f5f5;
+  border-radius: 10px;
   padding: 9px 10px;
 }
 .jumbo-tron .jumbo-new-link .span-new {
@@ -45,10 +56,11 @@
   margin: 0 0 0 10px;
 }
 .jumbo-tron .jumbo-head {
-  font-size: 70px;
+  font-size: 73px;
 }
 .jumbo-tron .jumpa-paragraph {
-  font-size: 25px;
+  font-size: 30px;
+  margin: 30px 0;
 }
 .jumbo-tron .jumbo-buttons {
   display: flex;
@@ -74,4 +86,34 @@
   margin: 8px 0;
   padding: 15px 20px;
   border: none;
+}
+
+.trusted-by {
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-banner {
+  width: 80%;
+  margin: 0 auto;
+}
+.middle-banner .middle-banner-hero-cards .middle-banner-hero {
+  background: url("https://monoassets.com/f/118499/2200x1080/c9632f083f/connect.jpg");
+  height: 90vh;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+@media (max-width: 990px) {
+  .jumbo-images {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
