@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { AiOutlineDown } from "react-icons/ai";
+import { AiOutlineDown, AiOutlineClose } from "react-icons/ai";
+import { BiMenu } from "react-icons/bi";
 
 function NavBar() {
   const [toggleBurger, setToggleBurger] = useState(false);
@@ -48,7 +49,9 @@ function NavBar() {
           className="burger-logo"
           onClick={() => setToggleBurger(!toggleBurger)}
         >
-          &#x2630;
+         {
+          !toggleBurger?( <BiMenu/>):(<AiOutlineClose/>)
+         }
         </div>
       </div>
 
