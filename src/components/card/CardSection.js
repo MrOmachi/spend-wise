@@ -51,19 +51,18 @@ function CardSection() {
         ref: "https://join.slack.com/t/devwithmono/shared_invite/zt-gvkqczzk-Ldt4FQpHtOL7FFTqh4Ux6A",
         icon: linkArrow,
       },
-     
     },
   ];
 
   return (
     <div className="started">
       <div className="started-contain">
-      <FeaturedCard data={cardData[0]} />
-      <div className="startedCards">
-        {cardData.slice(1).map((x, i) => {
-          return <Card data={x} key={i} />;
-        })}
-      </div>
+        <FeaturedCard data={cardData[0]} />
+        <div className="startedCards">
+          {cardData.slice(1).map((x, i) => {
+            return <Card data={x} key={i} />;
+          })}
+        </div>
       </div>
     </div>
   );

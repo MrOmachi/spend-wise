@@ -9,7 +9,7 @@ function Footer() {
     <footer className="footer_section">
       <section className="footer_section1">
         <div>
-          <h2>Start building with Momo</h2>
+          <h2>Start building with Mono</h2>
           <center>
             <p>Access high-quality financial data and start processing</p>
             <p>payments directly from bank accounts in minutes</p>

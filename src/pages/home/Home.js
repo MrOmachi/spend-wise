@@ -67,9 +67,10 @@ function Home() {
       </div>
 
       <div className="middle-banner">
-        <h1>
+        <h1 className="desktop">
           Build for the future <br /> of digital financem{" "}
         </h1>
+        <h1 className="mobile">Build for the future of digital financem </h1>
         <p>
           Bring tomorrow's solutions to life, with our customer-focused
           solutions, today.
@@ -93,6 +94,7 @@ function Home() {
               </Link>
             </div>
           </div>
+
           <div className="middle-banner-card">
             <div className="card-one">
               <img
@@ -140,8 +142,14 @@ function Home() {
         <h2>Businesses building</h2>
         <h2>with Mono</h2>
         <div className="Biz_building">
-          <p>Here are some if the interesting features and</p>
-          <p>experiences powered by Mono.</p>
+          <p className="desktop-p">
+            Here are some if the interesting features and
+          </p>
+          <p className="desktop-p">experiences powered by Mono.</p>
+          <p className="mobile-p">
+            Here are some if the interesting features and experiences powered by
+            Mono.
+          </p>
         </div>
       </div>
 
@@ -190,8 +198,11 @@ function Home() {
       </div>
 
       <div className="market-leaders">
-        <h2>Why market leaders are</h2>
-        <h2>choosing Mono</h2>
+        <h2 className="desktop-p">Why market leaders are</h2>
+        <h2 className="desktop-p">choosing Mono</h2>
+
+        <h2 className="mobile-p">Why market leaders are choosing Mono</h2>
+
         <div className="Biz_building">
           <p>Here's what some of them are saying.</p>
         </div>
