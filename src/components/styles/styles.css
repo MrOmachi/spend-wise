@@ -689,7 +689,7 @@ body {
     width: 45%;
   }
   .middle-banner {
-    width: 80%;
+    width: 95%;
     margin: auto;
   }
   .middle-banner .mobile {
@@ -779,6 +779,10 @@ body {
     width: 100%;
     padding: 5px;
   }
+  .loan-offers .loan-offer-content1 .loan-offer-img h1,
+.loan-offers .loan-offer-content1 .loan-offer-text h1 {
+    font-size: 30px;
+  }
   .loan-offers .loan-offer-content1 .loan-offer-img .diamond,
 .loan-offers .loan-offer-content1 .loan-offer-text .diamond {
     display: none;
@@ -853,14 +857,19 @@ body {
   .leftCol .cardsTxt {
     font-size: 20px;
   }
+  .started {
+    padding: 40px 0;
+  }
   .started .startedCards {
     flex-direction: column;
     gap: 6px;
     width: 100%;
-    padding: 12px 10px;
+    padding: 12px 1px;
   }
   .cardsContainer {
-    width: 80%;
+    align-items: center;
+    text-align: center;
+    width: 100%;
     margin: 0 auto;
   }
   .footer_section .footer_section1 {

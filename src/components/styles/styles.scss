@@ -1,5 +1,4 @@
-*{
-
+* {
   box-sizing: border-box;
 }
 body {
@@ -733,7 +732,7 @@ body {
   }
 
   .middle-banner {
-    width: 80%;
+    width: 95%;
     margin: auto;
     .mobile {
       width: 98%;
@@ -839,6 +838,9 @@ body {
       width: 100%;
       padding: 5px;
 
+      h1 {
+        font-size: 30px;
+      }
       .diamond {
         display: none;
         width: 0px;
@@ -925,16 +927,21 @@ body {
     }
   }
 
+  .started {
+    padding: 40px 0;
+  }
   .started .startedCards {
     flex-direction: column;
     // align-items: center;
     gap: 6px;
     width: 100%;
-    padding: 12px 10px;
+    padding: 12px 1px;
   }
 
   .cardsContainer {
-    width: 80%;
+    align-items: center;
+    text-align: center;
+    width: 100%;
     margin: 0 auto;
   }
 
